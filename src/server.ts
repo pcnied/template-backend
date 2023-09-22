@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: false }));
 // Converte caractéres especiais nas URL's
 
 app.listen(process.env.PORT, () =>
-  console.log("Servidor Iniciado", process.env.PORT)
+  console.log("Servidor iniciado", process.env.PORT)
 );
 
 app.get("/", (request: Request, response: Response) => {
